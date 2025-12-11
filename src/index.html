@@ -30,11 +30,26 @@
         </td>
       </tr>
       <tr>
-        <td></td>
+        <td>
+          <button onclick="setButton();"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label id=lblResult">JavaScript</label>
+        </td>
       </tr>
     </table>
     <br/>
   </main>
+  <script >
+    function setButton()
+    {
+      var parameter1 = document.getElementById('parameter1').value; 
+      var parameter2 = document.getElementById('parameter2').value; 
+      var label = document.getElementById('lblResult').innerHTML = "hello";
+    }
+  </script>
 </body>
 
 </html>
