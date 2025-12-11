@@ -12,9 +12,9 @@
   <script type="text/javascript">
     function setButton()
     {
-      var parameter1 = document.getElementById("parameter1").value; 
-      var parameter2 = document.getElementById("parameter2").value; 
-      document.getElementById("lblResult").innerHTML = "hello";
+      var parameter1 = Number(document.getElementById("parameter1").value); 
+      var parameter2 = Number(document.getElementById("parameter2").value); 
+      document.getElementById("lblResult").innerHTML = parameter1 * parameter2;
     }
   </script>
   <main>
