@@ -9,6 +9,15 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    function setButton()
+    {
+      alert('test');
+      var parameter1 = document.getElementById('parameter1').value; 
+      var parameter2 = document.getElementById('parameter2').value; 
+      document.getElementById('lblResult').innerHTML = "hello";
+    }
+  </script>
   <main>
     <table>
       <tr>
@@ -42,14 +51,6 @@
     </table>
     <br/>
   </main>
-  <script >
-    function setButton()
-    {
-      var parameter1 = document.getElementById('parameter1').value; 
-      var parameter2 = document.getElementById('parameter2').value; 
-      document.getElementById('lblResult').innerHTML = "hello";
-    }
-  </script>
 </body>
 
 </html>
